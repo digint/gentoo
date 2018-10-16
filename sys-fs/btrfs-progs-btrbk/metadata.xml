@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>axel@tty0.ch</email>
+    <name>Axel Burri</name>
+  </maintainer>
+  <upstream>
+    <maintainer status="active">
+      <email>axel@tty0.ch</email>
+      <name>Axel Burri</name>
+    </maintainer>
+    <doc>https://github.com/digint/btrbk/blob/master/README.md</doc>
+  </upstream>
+  <use>
+    <flag name="adduser">Add btrbk user</flag>
+    <flag name="btrbk-source">Install commands for backup source (btrfs-subvolume-snapshot, btrfs-send)</flag>
+    <flag name="btrbk-target">Install commands for backup target (btrfs-receive)</flag>
+    <flag name="btrbk-snapshot">Install btrfs snapshot command (btrfs-subvolume-snapshot)</flag>
+    <flag name="btrbk-delete">Install commands for subvolume deletion (btrfs-subvolume-delete)</flag>
+    <flag name="btrbk-info">Install informative commands (btrfs-filesystem-usage)</flag>
+  </use>
+</pkgmetadata>
